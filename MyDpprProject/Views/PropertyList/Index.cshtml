@@ -1,0 +1,288 @@
+﻿@model List<MyDpprProject.Models.Property>
+<section id="page-billboard">
+    <div class="container padding-medium-2 ">
+        <div class="page-billboard-container text-center">
+            <h1 class=" text-capitalize  lh-1 mb-3">Properties</h1>
+            <span class="item"><a href="index.html">Home</a></span> &nbsp; / &nbsp; <span class="item">Properties</span>
+        </div>
+    </div>
+</section>
+
+
+<div class="container">
+    <main class="main-content">
+        <div class="row align-items-center pb-5">
+            <div class="col-md-9 d-md-flex">
+                <div class="dropdown mb-3 me-3">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        For Sale
+                    </button>
+                    <div class="dropdown-menu p-4">
+                        <h5 class="list-title text-black mb-3">Listing Status</h5>
+                        <div class="radio-element">
+                            <div class="form-check ">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="checked">
+                                <label class="form-check-label" for="flexRadioDefault1">Rent</label>
+                            </div>
+                            <div class="form-check ">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                <label class="form-check-label" for="flexRadioDefault2">Buy</label>
+                            </div>
+                            <div class="form-check ">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                                <label class="form-check-label" for="flexRadioDefault3">Sold</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class=" text-start ">
+                            <button type="button" class="btn btn-primary">Done</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown mb-3 me-3">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Property Type
+                    </button>
+                    <div class="dropdown-menu p-4">
+                        <h5 class=" text-black mb-3"> Property Type</h5>
+                        <div class="checkbox-element">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault1">
+                                <label class="form-check-label" for="flexCheckDefault1">
+                                    Apartments
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                <label class="form-check-label" for="flexCheckDefault2">
+                                    Houses
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+                                <label class="form-check-label" for="flexCheckDefault3">
+                                    Villa
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+                                <label class="form-check-label" for="flexCheckDefault4">
+                                    Office
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault5">
+                                <label class="form-check-label" for="flexCheckDefault5">
+                                    Bungalow
+                                </label>
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class=" text-start ">
+                            <button type="button" class="btn btn-primary">Done</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown mb-3 me-3">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Rooms
+                    </button>
+                    <div class="dropdown-menu p-3">
+                        <div>
+                            <h5 class="text-black mb-3 mt-2">Bed Rooms</h5>
+                            <div class="swatch d-flex flex-wrap option-1 " data-option-index="1">
+                                <div data-value="X" class="swatch-element">
+                                    <input class="swatch-input hide" id="any-bedroom" data-var="x" type="radio" name="option-1" value="X">
+                                    <label class="swatch-label square-only" for="any-bedroom">Any</label>
+                                </div>
+                                <div data-value="A" class="swatch-element">
+                                    <input class="swatch-input hide" id="one-bedroom" data-var="a" type="radio" name="option-1" value="A">
+                                    <label class="swatch-label square-only" for="one-bedroom">1+</label>
+                                </div>
+                                <div data-value="B" class="swatch-element">
+                                    <input class="swatch-input hide" id="two-bedroom" data-var="b" type="radio" name="option-1" value="B">
+                                    <label class="swatch-label square-only" for="two-bedroom">2+</label>
+                                </div>
+                                <div data-value="C" class="swatch-element">
+                                    <input class="swatch-input hide" id="three-bedroom" data-var="c" type="radio" name="option-1" value="C">
+                                    <label class="swatch-label square-only" for="three-bedroom">3+</label>
+                                </div>
+                                <div data-value="D" class="swatch-element">
+                                    <input class="swatch-input hide" id="fourbedroom" data-var="d" type="radio" name="option-1" value="D">
+                                    <label class="swatch-label square-only" for="fourbedroom">4+</label>
+                                </div>
+                                <div data-value="E" class="swatch-element">
+                                    <input class="swatch-input hide" id="five-bedroom" data-var="e" type="radio" name="option-1" value="E">
+                                    <label class="swatch-label square-only" for="five-bedroom">5+</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h5 class=" text-black mb-3">Bathrooms</h5>
+                            <div class="swatch d-flex flex-wrap option-2 " data-option-index="1">
+                                <div data-value="X" class="swatch-element">
+                                    <input class="swatch-input hide" id="any-bathroom" data-var="x" type="radio" name="option-2" value="X">
+                                    <label class="swatch-label square-only" for="any-bathroom">Any</label>
+                                </div>
+                                <div data-value="A" class="swatch-element">
+                                    <input class="swatch-input hide" id="one-bathroom" data-var="a" type="radio" name="option-2" value="A">
+                                    <label class="swatch-label square-only" for="one-bathroom">1+</label>
+                                </div>
+                                <div data-value="B" class="swatch-element">
+                                    <input class="swatch-input hide" id="two-bathroom" data-var="b" type="radio" name="option-2" value="B">
+                                    <label class="swatch-label square-only" for="two-bathroom">2+</label>
+                                </div>
+                                <div data-value="C" class="swatch-element">
+                                    <input class="swatch-input hide" id="three-bathroom" data-var="c" type="radio" name="option-2" value="C">
+                                    <label class="swatch-label square-only" for="three-bathroom">3+</label>
+                                </div>
+                                <div data-value="D" class="swatch-element">
+                                    <input class="swatch-input hide" id="fourbathroom" data-var="d" type="radio" name="option-2" value="D">
+                                    <label class="swatch-label square-only" for="fourbathroom">4+</label>
+                                </div>
+                                <div data-value="E" class="swatch-element">
+                                    <input class="swatch-input hide" id="five-bathroom" data-var="e" type="radio" name="option-1" value="E">
+                                    <label class="swatch-label square-only" for="five-bathroom">5+</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <hr>
+                        <div class=" text-start ">
+                            <button type="button" class="btn btn-primary">Done</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="dropdown mb-3 me-3">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Price
+                    </button>
+                    <div class="dropdown-menu p-3">
+                        <h5 class=" text-black">Price Range</h5>
+                        <div class="price-input">
+                            <div class="field">
+                                <input type="number" class="input-min" value="2500">
+                            </div>
+                            <div class="separator mx-2">-</div>
+                            <div class="field">
+                                <input type="number" class="input-max" value="7500">
+                            </div>
+                        </div>
+                        <div class="slider">
+                            <div class="progress"></div>
+                        </div>
+                        <div class="range-input">
+                            <input type="range" class="range-min" min="0" max="100000" value="2500" step="100">
+                            <input type="range" class="range-max" min="0" max="100000" value="7500" step="100">
+                        </div>
+                        <hr>
+                        <div class=" text-start ">
+                            <button type="button" class="btn btn-primary">Done</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <select class="form-select border border-dark" aria-label="Default select example">
+                    <option selected="">All</option>
+                    <option value="1">New Arrivals</option>
+                    <option value="2">Best Seller</option>
+                    <option value="3">Low Price</option>
+                    <option value="4">Best Match</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            @foreach(var item in Model)
+            {
+                
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                        <a href="/Property/PropertyViewById"><img src="~/images/@item.ImageUrl" class="card-img-top rounded-4" alt="Luxury apartment with modern kitchen"></a>
+                    <div class="card-body p-0">
+                            <h3 class="pt-4">
+                                @item.Price.ToString("C", new System.Globalization.CultureInfo("tr-TR"))
+                                <span class="text-muted fs-5">@item.TypeName</span>
+                            </h3>
+                            <a href="/Property/PropertyViewById">
+                                <h4 class="card-title">@item.Title</h4>
+                        </a>
+                        <p class="card-text">@item.Address</p>
+
+                        <div class="card-text border-top border-2 pt-3">
+                            <ul class="d-flex">
+                                <li class="residence-list pe-2 fw-semibold">
+                                    <svg class="text-primary" width="30" height="30">
+                                        <use xlink:href="#bed"></use>
+                                        </svg> @item.BedCount yatak
+                                </li>
+                                <li class="residence-list pe-2 fw-semibold">
+                                    <svg class="text-primary" width="30" height="30">
+                                        <use xlink:href="#bath"></use>
+                                        </svg> @item.BathCount banyo
+                                </li>
+                                <li class="residence-list pe-2 fw-semibold">
+                                    <svg class="text-primary" width="30" height="30">
+                                        <use xlink:href="#area"></use>
+                                        </svg> @item.SquareMeter m2
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            }
+   
+        </div>
+
+        <nav aria-label="Page navigation" class="d-flex justify-content-center pt-4 my-5">
+            <ul class="pagination">
+                <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <iconify-icon icon="solar:arrow-left-linear" class="pagination-arrow">
+                            <template shadowrootmode="open">
+                                <style data-style="data-style">
+                                                                    :host {
+                                                                        display: inline-block;
+                                                                        vertical-align: 0
+                                                                    }
+
+                                                                    span, svg {
+                                                                        display: block
+                                    }</style>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 12H4m0 0l6-6m-6 6l6 6"></path></svg>
+                                </template>
+                            </iconify-icon>
+                        </a>
+                    </li>
+                    <li class="page-item active" aria-current="page">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <iconify-icon icon="solar:arrow-right-linear" class="pagination-arrow">
+                                <template shadowrootmode="open">
+                                    <style data-style="data-style">
+                                                                        :host {
+                                                                            display: inline-block;
+                                                                            vertical-align: 0
+                                                                        }
+
+                                                                        span, svg {
+                                                                            display: block
+                                        }</style>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"></path></svg>
+                                    </template>
+                                </iconify-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </main>
+        </div>

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\views\\property\\propertyviewbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\property\\propertyviewbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\controllers\\peopertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\peopertytypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\filters\\loginauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\filters\\loginauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\filters\\adminauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\filters\\adminauthorizeattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\views\\propertylist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\propertylist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\controllers\\propertylistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\propertylistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\property\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\allsoftitoprojects\\8dapperproject\\mydpprproject\\mydpprproject\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\salecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:14:25.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PropertyController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\PropertyController.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\PropertyController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAowAcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:18:48.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertyViewById.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Property\\PropertyViewById.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Property\\PropertyViewById.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Property\\PropertyViewById.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\Property\\PropertyViewById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T11:32:00.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T11:34:24.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Filters\\LoginAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Filters\\LoginAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Filters\\LoginAuthorizeAttribute.cs",
+              "RelativeToolTip": "MyDpprProject\\Filters\\LoginAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T11:55:58.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PeopertyTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\PeopertyTypeController.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\PeopertyTypeController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\PeopertyTypeController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\PeopertyTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T11:56:22.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Property\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Property\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Property\\Index.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\Property\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T10:36:38.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminAuthorizeAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Filters\\AdminAuthorizeAttribute.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Filters\\AdminAuthorizeAttribute.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Filters\\AdminAuthorizeAttribute.cs",
+              "RelativeToolTip": "MyDpprProject\\Filters\\AdminAuthorizeAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:16:06.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAswNEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T09:12:25.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PropertyListController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\PropertyListController.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\PropertyListController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\PropertyListController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\PropertyListController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T11:21:11.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T11:22:01.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\PropertyList\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\PropertyList\\Index.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Views\\PropertyList\\Index.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\PropertyList\\Index.cshtml",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAAANAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T09:25:27.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SaleController.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\SaleController.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\SaleController.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\Controllers\\SaleController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\SaleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-26T09:16:37.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

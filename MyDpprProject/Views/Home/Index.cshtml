@@ -1,0 +1,217 @@
+﻿@model List<MyDpprProject.Models.Property>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- billboard start  -->
+<section id="billboard"
+         style="background: url(images/billboard.jpg); background-repeat: no-repeat; background-position: center; height:960px;">
+    <div class="container padding-large">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h1 class="text-capitalize text-white lh-1 my-3">Hayalinizdeki Evi Kolayca Bulun</h1>
+                <p class="text-white mb-4">
+                    Uzman ekibimizle sorunsuz gayrimenkul işlemlerini deneyimleyin. Satın alma ve satma konusunda kapsamlı destek sağlıyor, gayrimenkul 
+                    yolculuğunuzun sorunsuz ve başarılı olmasını garanti ediyoruz.
+                </p>
+                @* <div class="row billboard-row rounded-pill align-items-center">
+            <div class="col-lg-3">
+              <select class="form-select mb-2 mb-lg-0" aria-label="Purpose">
+                <option selected>Purpose</option>
+                <option value="1">Buy</option>
+                <option value="2">Rent</option>
+                <option value="3">Sell</option>
+                <option value="4">Something else here</option>
+
+              </select>
+            </div>
+            <div class="col-lg-3">
+              <select class="form-select mb-2 mb-lg-0" aria-label="Location">
+                <option selected>Location</option>
+                <option value="1">Texas</option>
+                <option value="2">Miami</option>
+                <option value="3">Chicago</option>
+                <option value="4">New York</option>
+                <option value="5">Something else here</option>
+              </select>
+            </div>
+            <div class="col-lg-3">
+              <select class="form-select mb-2 mb-lg-0" aria-label="Type">
+                <option selected>Type</option>
+                <option value="1">House</option>
+                <option value="2">Appartment</option>
+                <option value="3">Villa</option>
+                <option value="4">Loft</option>
+                <option value="5">Bungalow</option>
+                <option value="3">Something else here</option>
+              </select>
+            </div>
+            <div class="col-lg-3 p-md-0">
+              <button type="submit" class="btn btn-primary btn-lg billboard-search">Search</button>
+            </div>
+          </div> *@
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--About us start  -->
+<section id="about-us" class="padding-medium">
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-lg-4">
+                <i class="bi bi-search text-primary display-2"></i>
+                <h3 class="my-3">Kolay Bulunabilir</h3>
+                <p>Geniş İlan aralığı</p>
+            </div>
+            <div class="text-center col-lg-4">
+                <i class="bi bi-tags text-primary display-2"></i>
+                <h3 class="my-3">Uygun Fiyatlar</h3>
+                <p>Her bütçeye uyumlu evler</p>
+            </div>
+            <div class="text-center col-lg-4">
+                <i class="bi bi-stopwatch text-primary display-2"></i>
+                <h3 class="my-3 ">Hızlı İşlem</h3>
+                <p>Kolay ve hızlı işlemler </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Residence start  -->
+<section id="residence">
+    <div class="container-fluid px-md-5">
+        <h2 class="text-capitalize m-0 py-lg-5">Popüler Evler</h2>
+
+        <div class="row">
+         
+            @foreach(var item in Model)
+            {
+                
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card">
+                        <a href="/Property/PropertyViewById/@item.PropertyId"><img src="~/images/@item.ImageUrl" class="card-img-top rounded-4" alt="image"></a>
+                    <div class="card-body p-0">
+                            <h3 class="pt-4">
+                                @item.Price.ToString("C", new System.Globalization.CultureInfo("tr-TR"))
+                                <span class="text-muted fs-5">@item.TypeName</span>
+                            </h3>
+                            <a href="/Property/PropertyViewById/@item.PropertyId">
+                            <h4 class="card-title">@item.Title</h4>
+                        </a>
+                        <p class="card-text">@item.Address</p>
+
+                        <div class="card-text border-top border-2 pt-3">
+                            <ul class="d-flex">
+                                <li class="residence-list pe-2 fw-semibold">
+                                    <svg class="text-primary" width="30" height="30">
+                                        <use xlink:href="#bed"></use>
+                                    </svg> @item.BedCount yatak
+                                </li>
+                                <li class="residence-list pe-2 fw-semibold">
+                                    <svg class="text-primary" width="30" height="30">
+                                        <use xlink:href="#bath"></use>
+                                    </svg> @item.BathCount banyo
+                                </li>
+                                <li class="residence-list pe-2 fw-semibold">
+                                    <svg class="text-primary" width="30" height="30">
+                                        <use xlink:href="#area"></use>
+                                    </svg> @item.SquareMeter m2
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            }
+           
+        </div>
+        <div class="residence-btn text-center">
+            <a href="/PropertyList" class="btn btn-primary btn-lg my-5">Tüm İlanlar</a>
+        </div>
+
+    </div>
+</section>
+
+ 
+
+<!-- Testimonial start  -->
+<section id="testimonial">
+    <div class="container ">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <svg class="text-primary" width="120" height="120">
+                                <use xlink:href="#quote"></use>
+                            </svg>
+                            <p class="testimonial-p mt-2">
+                                Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla
+                                eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="fw-semibold pt-3 mb-1">Elena Pravo</p>
+                                    <p class="text-primary opacity-75">Ceo, Upstate</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <svg class="text-primary" width="120" height="120">
+                                <use xlink:href="#quote"></use>
+                            </svg>
+                            <p class="testimonial-p mt-2">
+                                Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla
+                                eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="fw-semibold pt-3 mb-1">Elena Pravo</p>
+                                    <p class="text-primary opacity-75">Ceo, Upstate</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <svg class="text-primary" width="120" height="120">
+                                <use xlink:href="#quote"></use>
+                            </svg>
+                            <p class="testimonial-p mt-2">
+                                Massa semper non rutrum orci facilisi sit. Lectus porta quam a fringilla
+                                eget viverra sem. Vulputate massa hendrerit turpis gravida tempor, porttitor.
+                            </p>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <p class="fw-semibold pt-3 mb-1">Elena Pravo</p>
+                                    <p class="text-primary opacity-75">Ceo, Upstate</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class=" testimonial-swiper-button col-md-3 position-absolute">
+                        <div class="swiper-button-prev testimonial-arrow"></div>
+                        <div class="arrow-divider"> | </div>
+                        <div class="swiper-button-next testimonial-arrow"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+@if (TempData["Success"] != null)
+{
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Başarılı',
+            text: '@TempData["Success"]',
+            confirmButtonText: 'Tamam'
+        });
+    </script>
+}
+

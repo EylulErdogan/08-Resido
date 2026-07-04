@@ -1,0 +1,81 @@
+﻿@model List<MyDpprProject.Models.Property>
+
+@{
+    Layout = "_AdminLayout";
+}
+<!-- Main Content Area -->
+<div class="container-fluid my-4 px-lg-4">
+    <div class="d-flex justify-content-between align-items-center">
+        <h2 class="fw-bold m-0">Category List</h2>
+        <nav class="breadcrumb m-0">
+            <a class="breadcrumb-item " href="/Admin">Anasayfa</a>
+            <a class="breadcrumb-item " href="/Property">İlan</a>
+            <span class="breadcrumb-item active " aria-current="page">İlan Listesi</span>
+        </nav>
+    </div>
+    <div class="bg-white p-4 mt-4">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <div>
+                <select class="form-select w-auto d-inline">
+                    <option>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                </select> entries
+            </div>
+            <input type="text" class="form-control w-25" placeholder="Ara...">
+            <a href="/Property/AddProperty" class="btn btn-dark">+ Yeni Ekle</a>
+        </div>
+        <table class="table table-hover align-middle bg-white">
+            <thead class="table-light">
+                <tr>
+                    <th>Başlık</th>
+                    <th>İlan ID</th>
+                    <th>Açıklama</th>
+                    <th>Fiyat</th>
+                    <th>Duzenle</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="d-sm-flex align-items-center">
+                            <img src="~/images/@item.ImageUrl"
+                                 alt="@item.Title" class="img-fluid product-img"> <span class="ms-sm-2">@item.Title</span>
+                        </td>
+                        <td>@item.PropertyId</td>
+                        <td>@item.Description</td>
+                        <td>@item.Price</td>
+                        <td>
+                           
+                            <a href="@Url.Action("UpdateProperty", "Property", new { id = item.PropertyId })"
+                               class="text-success me-2">
+                                <i class="bi bi-pencil-square"></i>
+                            </a>
+
+                            <a href="@Url.Action("DeleteProperty", "Property", new { id = item.PropertyId })"
+                               class="text-danger"
+                               onclick="return confirm('Bu ilan silinsin mi?')">
+                                <i class="bi bi-trash-fill"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+               
+             
+          
+
+                <!-- Repeat for more rows -->
+            </tbody>
+        </table>
+        <nav>
+            <ul class="pagination justify-content-end">
+                <li class="page-item"><a class="page-link" href="#">«</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">»</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
