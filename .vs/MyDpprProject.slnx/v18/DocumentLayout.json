@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\08-resido\\mydpprproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\08-resido\\mydpprproject\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\controllers\\propertycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -87,10 +91,6 @@
       "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\08-resido\\mydpprproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|c:\\users\\eylul\\documents\\github\\08-resido\\mydpprproject\\views\\property\\propertyviewbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{778835EB-186A-A5B3-8868-1DCFDAB2B21D}|MyDpprProject\\MyDpprProject.csproj|solutionrelative:mydpprproject\\views\\property\\propertyviewbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -118,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -134,33 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Program.cs",
-              "RelativeDocumentMoniker": "MyDpprProject\\Program.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Program.cs",
-              "RelativeToolTip": "MyDpprProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T18:36:11.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AddSale.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Sale\\AddSale.cshtml",
-              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Sale\\AddSale.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Sale\\AddSale.cshtml",
-              "RelativeToolTip": "MyDpprProject\\Views\\Sale\\AddSale.cshtml",
-              "ViewState": "AgIAADIAAAAAAAAAAAAIwE0AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:13:22.068Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Shared\\_AdminLayout.cshtml",
@@ -168,12 +142,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAO4AAAAAAAAAAAAkwPgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T17:59:13.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T17:59:13.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\PropertyList\\Index.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\PropertyList\\Index.cshtml",
@@ -181,12 +154,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyList\\Index.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwCkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T09:25:27.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:25:27.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PropertyController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\PropertyController.cs",
@@ -199,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Property\\Index.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Property\\Index.cshtml",
@@ -207,12 +179,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\Index.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAADAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T10:36:38.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T10:36:38.214Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Sale\\Index.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Sale\\Index.cshtml",
@@ -220,12 +191,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Sale\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:12:04.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:12:04.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AddUser.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\User\\AddUser.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\User\\AddUser.cshtml",
@@ -233,12 +203,48 @@
               "RelativeToolTip": "MyDpprProject\\Views\\User\\AddUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:06:24.07Z",
+              "WhenOpened": "2026-07-05T18:06:24.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAwwJMBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-26T09:12:25.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
+              "Title": "AddSale.cshtml",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Sale\\AddSale.cshtml",
+              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Sale\\AddSale.cshtml",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Sale\\AddSale.cshtml",
+              "RelativeToolTip": "MyDpprProject\\Views\\Sale\\AddSale.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwE0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-05T18:13:22.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyDpprProject\\Program.cs",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Program.cs",
+              "RelativeToolTip": "MyDpprProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T18:36:11.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateProperty.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Property\\UpdateProperty.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Property\\UpdateProperty.cshtml",
@@ -246,12 +252,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\UpdateProperty.cshtml",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:22:32.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:22:32.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UpdateSale.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Sale\\UpdateSale.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Sale\\UpdateSale.cshtml",
@@ -259,12 +264,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Sale\\UpdateSale.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:13:25.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:13:25.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\PropertyType\\Index.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\PropertyType\\Index.cshtml",
@@ -272,12 +276,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyType\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:15:08.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:15:08.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AddProperty.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Property\\AddProperty.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Property\\AddProperty.cshtml",
@@ -285,12 +288,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\AddProperty.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAIwE4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:22:22.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:22:22.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AddPropertyType.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\PropertyType\\AddPropertyType.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\PropertyType\\AddPropertyType.cshtml",
@@ -298,12 +300,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyType\\AddPropertyType.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwCkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:15:19.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:15:19.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UpdatePropertyType.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\PropertyType\\UpdatePropertyType.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\PropertyType\\UpdatePropertyType.cshtml",
@@ -311,12 +312,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyType\\UpdatePropertyType.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:15:28.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:15:28.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\User\\Index.cshtml",
@@ -324,12 +324,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:05:01.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:05:01.944Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\UserController.cs",
@@ -337,12 +336,11 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\UserController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAswDIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T18:03:35.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:03:35.973Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "SaleController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\SaleController.cs",
               "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\SaleController.cs",
@@ -350,12 +348,11 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\SaleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T09:16:37.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:16:37.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "UpdateUser.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\User\\UpdateUser.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\User\\UpdateUser.cshtml",
@@ -363,12 +360,11 @@
               "RelativeToolTip": "MyDpprProject\\Views\\User\\UpdateUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:09:34.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:09:34.959Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PropertyListController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\PropertyListController.cs",
               "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\PropertyListController.cs",
@@ -376,8 +372,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\PropertyListController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:21:11.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:21:11.677Z"
             },
             {
               "$type": "Document",
@@ -389,12 +384,11 @@
               "RelativeToolTip": "MyDpprProject\\Filters\\LoginAuthorizeAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:55:58.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:55:58.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\AdminController.cs",
@@ -402,12 +396,11 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAuwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T09:14:25.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:14:25.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "MyDpprProject\\Views\\Admin\\Index.cshtml",
@@ -415,21 +408,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T17:43:28.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAANsAAAAAAAAAAAAAAOwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T09:12:25.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T17:43:28.813Z"
             },
             {
               "$type": "Document",
@@ -441,8 +420,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwD8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T11:34:24.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:34:24.566Z"
             },
             {
               "$type": "Document",
@@ -454,8 +432,7 @@
               "RelativeToolTip": "MyDpprProject\\Filters\\AdminAuthorizeAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T09:16:06.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:16:06.302Z"
             },
             {
               "$type": "Document",
@@ -467,8 +444,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\PropertyViewById.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T11:32:00.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:32:00.657Z"
             },
             {
               "$type": "Document",
@@ -480,8 +456,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:22:01.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:22:01.243Z"
             }
           ]
         }

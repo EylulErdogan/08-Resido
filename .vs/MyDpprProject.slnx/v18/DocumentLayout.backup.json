@@ -142,8 +142,7 @@
               "RelativeToolTip": "MyDpprProject\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T18:36:11.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:36:11.536Z"
             },
             {
               "$type": "Document",
@@ -155,8 +154,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Sale\\AddSale.cshtml",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwE0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:13:22.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:13:22.068Z"
             },
             {
               "$type": "Document",
@@ -168,8 +166,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAO4AAAAAAAAAAAAkwPgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T17:59:13.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T17:59:13.736Z"
             },
             {
               "$type": "Document",
@@ -181,8 +178,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyList\\Index.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwCkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T09:25:27.779Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:25:27.779Z"
             },
             {
               "$type": "Document",
@@ -190,9 +186,9 @@
               "Title": "PropertyController.cs",
               "DocumentMoniker": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\PropertyController.cs",
               "RelativeDocumentMoniker": "MyDpprProject\\Controllers\\PropertyController.cs",
-              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\PropertyController.cs*",
-              "RelativeToolTip": "MyDpprProject\\Controllers\\PropertyController.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAcAAAAeAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\Controllers\\PropertyController.cs",
+              "RelativeToolTip": "MyDpprProject\\Controllers\\PropertyController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-26T09:18:48.953Z",
               "EditorCaption": ""
@@ -207,8 +203,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\Index.cshtml",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAADAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T10:36:38.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T10:36:38.214Z"
             },
             {
               "$type": "Document",
@@ -220,8 +215,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Sale\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:12:04.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:12:04.896Z"
             },
             {
               "$type": "Document",
@@ -233,8 +227,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\User\\AddUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:06:24.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:06:24.07Z"
             },
             {
               "$type": "Document",
@@ -246,8 +239,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\UpdateProperty.cshtml",
               "ViewState": "AgIAAD8AAAAAAAAAAAAAAFAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:22:32.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:22:32.035Z"
             },
             {
               "$type": "Document",
@@ -259,8 +251,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Sale\\UpdateSale.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:13:25.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:13:25.693Z"
             },
             {
               "$type": "Document",
@@ -272,8 +263,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyType\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:15:08.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:15:08.505Z"
             },
             {
               "$type": "Document",
@@ -285,8 +275,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\AddProperty.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAIwE4AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:22:22.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:22:22.971Z"
             },
             {
               "$type": "Document",
@@ -298,8 +287,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyType\\AddPropertyType.cshtml",
               "ViewState": "AgIAAA4AAAAAAAAAAAAIwCkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:15:19.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:15:19.812Z"
             },
             {
               "$type": "Document",
@@ -311,8 +299,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\PropertyType\\UpdatePropertyType.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:15:28.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:15:28.021Z"
             },
             {
               "$type": "Document",
@@ -324,8 +311,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\User\\Index.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:05:01.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:05:01.944Z"
             },
             {
               "$type": "Document",
@@ -337,8 +323,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\UserController.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAswDIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-05T18:03:35.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:03:35.973Z"
             },
             {
               "$type": "Document",
@@ -350,8 +335,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\SaleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T09:16:37.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:16:37.301Z"
             },
             {
               "$type": "Document",
@@ -363,8 +347,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\User\\UpdateUser.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T18:09:34.959Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T18:09:34.959Z"
             },
             {
               "$type": "Document",
@@ -376,8 +359,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\PropertyListController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:21:11.677Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:21:11.677Z"
             },
             {
               "$type": "Document",
@@ -389,8 +371,7 @@
               "RelativeToolTip": "MyDpprProject\\Filters\\LoginAuthorizeAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:55:58.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:55:58.824Z"
             },
             {
               "$type": "Document",
@@ -402,8 +383,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAuwBkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T09:14:25.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:14:25.163Z"
             },
             {
               "$type": "Document",
@@ -415,8 +395,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-05T17:43:28.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-05T17:43:28.813Z"
             },
             {
               "$type": "Document",
@@ -428,8 +407,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAANsAAAAAAAAAAAAAAOwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T09:12:25.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:12:25.553Z"
             },
             {
               "$type": "Document",
@@ -441,8 +419,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwD8AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T11:34:24.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:34:24.566Z"
             },
             {
               "$type": "Document",
@@ -454,8 +431,7 @@
               "RelativeToolTip": "MyDpprProject\\Filters\\AdminAuthorizeAttribute.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T09:16:06.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T09:16:06.302Z"
             },
             {
               "$type": "Document",
@@ -467,8 +443,7 @@
               "RelativeToolTip": "MyDpprProject\\Views\\Property\\PropertyViewById.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-26T11:32:00.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:32:00.657Z"
             },
             {
               "$type": "Document",
@@ -480,8 +455,7 @@
               "RelativeToolTip": "MyDpprProject\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-26T11:22:01.243Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-26T11:22:01.243Z"
             }
           ]
         }
