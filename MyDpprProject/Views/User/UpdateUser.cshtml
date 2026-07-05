@@ -4,69 +4,37 @@
     Layout = "_AdminLayout";
 }
 
-<div class="container-fluid my-4 px-lg-4">
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">Update User</h2>
-
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item" href="/User/Index">Users</a>
-            <span class="breadcrumb-item active">Update User</span>
-        </nav>
-    </div>
+<div class="container-fluid">
+    <h2 class="fw-bold mb-4">Müşteri Güncelle</h2>
 
     <form method="post">
-
         <input type="hidden" asp-for="UserId" />
 
-        <div class="row mt-4">
-            <div class="col-lg-12">
-                <div class="p-4 bg-white border rounded">
+        <div class="bg-white p-4 rounded-4 shadow-sm">
 
-                    <div class="mb-3">
-                        <label class="form-label">Ad Soyad *</label>
-                        <input type="text"
-                               asp-for="FullName"
-                               class="form-control p-3"
-                               placeholder="Ad Soyad Giriniz">
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Email *</label>
-                        <input type="email"
-                               asp-for="Email"
-                               class="form-control p-3"
-                               placeholder="Email Giriniz">
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Şifre *</label>
-                        <input type="password"
-                               asp-for="Password"
-                               class="form-control p-3"
-                               placeholder="Şifre Giriniz">
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Rol ID *</label>
-                        <input type="number"
-                               asp-for="RoleId"
-                               class="form-control p-3"
-                               placeholder="1 Admin, 2 User">
-                    </div>
-
-                    <div class="mt-4 d-flex gap-2">
-                        <button type="submit" class="btn btn-dark py-3 px-5">
-                            Güncelle
-                        </button>
-
-                        <a href="/User/Index" class="btn btn-outline-dark py-3 px-5">
-                            İptal
-                        </a>
-                    </div>
-
-                </div>
+            <div class="mb-3">
+                <label class="form-label">Ad Soyad</label>
+                <input asp-for="FullName" class="form-control p-3">
             </div>
-        </div>
 
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input asp-for="Email" class="form-control p-3">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Şifre</label>
+                <input asp-for="Password" class="form-control p-3">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Rol Id</label>
+                <input asp-for="RoleId" type="number" class="form-control p-3">
+            </div>
+
+            <button type="submit" class="btn btn-dark px-5 py-3">Güncelle</button>
+            <a href="/User/Index" class="btn btn-outline-dark px-5 py-3">İptal</a>
+
+        </div>
     </form>
 </div>

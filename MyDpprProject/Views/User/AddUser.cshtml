@@ -4,81 +4,35 @@
     Layout = "_AdminLayout";
 }
 
-<div class="container-fluid my-4 px-lg-4">
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">New User</h2>
-
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item" href="/User/Index">Users</a>
-            <span class="breadcrumb-item active">New User</span>
-        </nav>
-    </div>
+<div class="container-fluid">
+    <h2 class="fw-bold mb-4">Yeni Müşteri</h2>
 
     <form method="post">
+        <div class="bg-white p-4 rounded-4 shadow-sm">
 
-        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
-
-        <div class="row mt-4">
-            <div class="col-lg-12">
-                <div class="p-4 bg-white border rounded">
-
-                    <div class="mb-3">
-                        <label class="form-label">Ad Soyad *</label>
-                        <input type="text"
-                               asp-for="FullName"
-                               class="form-control p-3"
-                               placeholder="Ad Soyad Giriniz"
-                               required />
-                        <span asp-validation-for="FullName" class="text-danger"></span>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Email *</label>
-                        <input type="email"
-                               asp-for="Email"
-                               class="form-control p-3"
-                               placeholder="Email Giriniz"
-                               required />
-                        <span asp-validation-for="Email" class="text-danger"></span>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Şifre *</label>
-                        <input type="password"
-                               asp-for="Password"
-                               class="form-control p-3"
-                               placeholder="Şifre Giriniz"
-                               required />
-                        <span asp-validation-for="Password" class="text-danger"></span>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Rol ID *</label>
-                        <input type="number"
-                               asp-for="RoleId"
-                               class="form-control p-3"
-                               placeholder="1 Admin, 2 User"
-                               required />
-                        <span asp-validation-for="RoleId" class="text-danger"></span>
-                    </div>
-
-                    <div class="col-lg-3 mt-5 mt-lg-0">
-                        <div class="mt-3 d-flex gap-2">
-
-                            <button type="submit" class="btn btn-dark py-3 w-100">
-                                Kullanıcı Oluştur
-                            </button>
-
-                            <a href="/User/Index" class="btn btn-outline-dark py-3 w-100">
-                                İptal
-                            </a>
-
-                        </div>
-                    </div>
-
-                </div>
+            <div class="mb-3">
+                <label class="form-label">Ad Soyad</label>
+                <input asp-for="FullName" class="form-control p-3" placeholder="Ad soyad giriniz">
             </div>
-        </div>
 
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input asp-for="Email" class="form-control p-3" placeholder="Email giriniz">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Şifre</label>
+                <input asp-for="Password" class="form-control p-3" placeholder="Şifre giriniz">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Rol Id</label>
+                <input asp-for="RoleId" type="number" class="form-control p-3" placeholder="1 Admin, 2 User">
+            </div>
+
+            <button type="submit" class="btn btn-dark px-5 py-3">Kaydet</button>
+            <a href="/User/Index" class="btn btn-outline-dark px-5 py-3">İptal</a>
+
+        </div>
     </form>
 </div>

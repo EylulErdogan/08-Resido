@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyDpprProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a6320cc6134b4bb3c35164197e3f384c99d9adf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+771d1a8b3a6cc938d16fea592662a101eb3e627b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyDpprProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyDpprProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,43 +4,28 @@
     Layout = "_AdminLayout";
 }
 
-<div class="container-fluid my-4 px-lg-4">
+<div class="container-fluid">
 
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">Satış Listesi</h2>
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Satış Listesi</h2>
 
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item" href="/Admin">Anasayfa</a>
-            <a class="breadcrumb-item" href="/Sale">Satışlar</a>
-            <span class="breadcrumb-item active" aria-current="page">Satış Listesi</span>
-        </nav>
+        <a href="/Sale/AddSale" class="btn btn-dark">
+            + Yeni Satış
+        </a>
     </div>
 
-    <div class="bg-white p-4 mt-4">
+    <div class="bg-white p-4 rounded-4 shadow-sm">
 
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div>
-                <select class="form-select w-auto d-inline">
-                    <option>10</option>
-                    <option>25</option>
-                    <option>50</option>
-                </select> entries
-            </div>
-
-          
-        </div>
-
-        <table class="table table-hover align-middle bg-white">
+        <table class="table table-hover align-middle">
 
             <thead class="table-light">
                 <tr>
-                    <th>Satış ID</th>
+                    <th>#</th>
                     <th>İlan</th>
-                    <th>Adres</th>
                     <th>Müşteri</th>
                     <th>Satış Tarihi</th>
-                    <th>Toplam Tutar</th>
-                    <th>Düzenle</th>
+                    <th>Tutar</th>
+                    <th class="text-end">İşlemler</th>
                 </tr>
             </thead>
 
@@ -54,25 +39,25 @@
 
                         <td>@item.Title</td>
 
-                        <td>@item.Address</td>
-
                         <td>@item.FullName</td>
 
-                        <td>@item.SaleDate.ToString("dd.MM.yyyy")</td>
-
-                        <td>@item.TotalPrice.ToString("N0") ₺</td>
+                        <td>@item.SaleDate.ToShortDateString()</td>
 
                         <td>
+                            @item.TotalPrice.ToString("C", new System.Globalization.CultureInfo("tr-TR"))
+                        </td>
 
-                            <a href="@Url.Action("UpdateSale", "Sale", new { id = item.SaleId })"
-                               class="text-success me-2">
-                                <i class="bi bi-pencil-square"></i>
+                        <td class="text-end">
+
+                            <a href="/Sale/UpdateSale/@item.SaleId"
+                               class="btn btn-success btn-sm">
+                                Güncelle
                             </a>
 
-                            <a href="@Url.Action("DeleteSale", "Sale", new { id = item.SaleId })"
-                               class="text-danger"
-                               onclick="return confirm('Bu satış kaydı silinsin mi?')">
-                                <i class="bi bi-trash-fill"></i>
+                            <a href="/Sale/DeleteSale/@item.SaleId"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Satış silinsin mi?')">
+                                Sil
                             </a>
 
                         </td>
@@ -83,16 +68,6 @@
             </tbody>
 
         </table>
-
-        <nav>
-            <ul class="pagination justify-content-end">
-                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">»</a></li>
-            </ul>
-        </nav>
 
     </div>
 

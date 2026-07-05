@@ -12,105 +12,105 @@ build_property.EntryPointFilePath =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyDpprProject
 build_property.RootNamespace = MyDpprProject
-build_property.ProjectDir = C:\Users\eylul\Documents\GitHub\AllSoftitoProjects\8DapperProject\MyDpprProject\MyDpprProject\
+build_property.ProjectDir = C:\Users\eylul\Documents\GitHub\08-Resido\MyDpprProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 10.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\eylul\Documents\GitHub\AllSoftitoProjects\8DapperProject\MyDpprProject\MyDpprProject
+build_property.MSBuildProjectDirectory = C:\Users\eylul\Documents\GitHub\08-Resido\MyDpprProject
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Admin/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Home/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Home/Privacy.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/PropertyList/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/PropertyList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlMaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/PropertyType/AddPropertyType.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/PropertyType/AddPropertyType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXEFkZFByb3BlcnR5VHlwZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/PropertyType/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/PropertyType/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/PropertyType/UpdatePropertyType.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/PropertyType/UpdatePropertyType.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlUeXBlXFVwZGF0ZVByb3BlcnR5VHlwZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Property/AddProperty.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Property/AddProperty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcQWRkUHJvcGVydHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Property/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Property/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Property/PropertyViewById.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Property/PropertyViewById.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcUHJvcGVydHlWaWV3QnlJZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Property/UpdateProperty.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Property/UpdateProperty.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvcGVydHlcVXBkYXRlUHJvcGVydHkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Sale/AddSale.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Sale/AddSale.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxBZGRTYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Sale/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Sale/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Sale/UpdateSale.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Sale/UpdateSale.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FsZVxVcGRhdGVTYWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Shared/Error.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/User/AddUser.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/User/AddUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/User/Index.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/User/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/User/UpdateUser.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/User/UpdateUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVcGRhdGVVc2VyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/_ViewImports.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/_ViewStart.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/eylul/Documents/GitHub/AllSoftitoProjects/8DapperProject/MyDpprProject/MyDpprProject/Views/Shared/_Layout.cshtml]
+[C:/Users/eylul/Documents/GitHub/08-Resido/MyDpprProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7d2dyjfnom

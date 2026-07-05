@@ -3,73 +3,61 @@
 @{
     Layout = "_AdminLayout";
 }
-<!-- Main Content Area -->
-<div class="container-fluid my-4 px-lg-4">
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">İlan Tipi Listesi</h2>
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item " href="/Admin">Anasayfa</a>
-            <a class="breadcrumb-item " href="/PropertyType">İlan Tipi</a>
-            <span class="breadcrumb-item active " aria-current="page">İlan Tipi Listesi</span>
-        </nav>
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">İlan Türleri</h2>
+
+        <a href="/PropertyType/AddPropertyType" class="btn btn-dark">
+            + Yeni Tür
+        </a>
     </div>
-    <div class="bg-white p-4 mt-4">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div>
-                <select class="form-select w-auto d-inline">
-                    <option>10</option>
-                    <option>25</option>
-                    <option>50</option>
-                </select> entries
-            </div>
-            <input type="text" class="form-control w-25" placeholder="Ara...">
-            <a href="/PropertyType/AddPropertyType" class="btn btn-dark">+ Yeni Ekle</a>
-        </div>
-        <table class="table table-hover align-middle bg-white">
+
+    <div class="bg-white p-4 rounded-4 shadow-sm">
+
+        <table class="table table-hover align-middle">
+
             <thead class="table-light">
                 <tr>
-                    <th>Tip Id</th>
-                    <th>Tip Adı</th>
-                    <th>Duzenle</th>
+                    <th>#</th>
+                    <th>Tür Adı</th>
+                    <th class="text-end">İşlemler</th>
                 </tr>
             </thead>
+
             <tbody>
+
                 @foreach (var item in Model)
                 {
                     <tr>
-                      
+
                         <td>@item.PropertyTypeId</td>
-                        <td>@item.TypeName</td>
-                        <td>
 
-                            <a href="@Url.Action("UpdatePropertyType", "PropertyType", new { id = item.PropertyTypeId })"
-                               class="text-success me-2">
-                                <i class="bi bi-pencil-square"></i>
+                        <td class="fw-semibold">@item.TypeName</td>
+
+                        <td class="text-end">
+
+                            <a href="/PropertyType/UpdatePropertyType/@item.PropertyTypeId"
+                               class="btn btn-success btn-sm">
+                                Güncelle
                             </a>
 
-                            <a href="@Url.Action("DeletePropertyType", "PropertyType", new { id = item.PropertyTypeId })"
-                               class="text-danger"
-                               onclick="return confirm('Bu ilan tipi silinsin mi?')">
-                                <i class="bi bi-trash-fill"></i>
+                            <a href="/PropertyType/DeletePropertyType/@item.PropertyTypeId"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('Bu ilan türü silinsin mi?')">
+                                Sil
                             </a>
+
                         </td>
+
                     </tr>
                 }
 
-               
-             
-          
-                <!-- Repeat for more rows -->
             </tbody>
+
         </table>
-        <nav>
-            <ul class="pagination justify-content-end">
-                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">»</a></li>
-            </ul>
-        </nav>
+
     </div>
+
 </div>

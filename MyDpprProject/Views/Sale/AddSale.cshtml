@@ -1,5 +1,78 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model MyDpprProject.Models.Sale
+
 @{
+    Layout = "_AdminLayout";
 }
+
+<div class="container-fluid">
+
+    <h2 class="fw-bold mb-4">
+        Yeni Satış
+    </h2>
+
+    <form method="post">
+
+        <div class="bg-white p-4 rounded-4 shadow-sm">
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    İlan Id
+                </label>
+
+                <input asp-for="PropertyId"
+                       class="form-control p-3"
+                       placeholder="İlan Id">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Müşteri Id
+                </label>
+
+                <input asp-for="UserId"
+                       class="form-control p-3"
+                       placeholder="Müşteri Id">
+
+            </div>
+
+            <div class="mb-3">
+
+                <label class="form-label">
+                    Satış Tarihi
+                </label>
+
+                <input asp-for="SaleDate"
+                       type="date"
+                       class="form-control p-3">
+
+            </div>
+
+            <div class="mb-4">
+
+                <label class="form-label">
+                    Satış Tutarı
+                </label>
+
+                <input asp-for="TotalPrice"
+                       class="form-control p-3"
+                       placeholder="Satış Tutarı">
+
+            </div>
+
+            <button class="btn btn-dark px-5 py-3">
+                Kaydet
+            </button>
+
+            <a href="/Sale/Index"
+               class="btn btn-outline-dark px-5 py-3">
+                İptal
+            </a>
+
+        </div>
+
+    </form>
+
+</div>

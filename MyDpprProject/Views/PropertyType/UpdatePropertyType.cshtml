@@ -1,5 +1,43 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model MyDpprProject.Models.PropertyType
+
 @{
+    Layout = "_AdminLayout";
 }
+
+<div class="container-fluid">
+
+    <h2 class="fw-bold mb-4">
+        İlan Türünü Güncelle
+    </h2>
+
+    <form method="post">
+
+        <input type="hidden" asp-for="PropertyTypeId" />
+
+        <div class="bg-white p-4 rounded-4 shadow-sm">
+
+            <div class="mb-4">
+
+                <label class="form-label">
+                    İlan Türü
+                </label>
+
+                <input asp-for="TypeName"
+                       class="form-control p-3">
+
+            </div>
+
+            <button class="btn btn-dark px-5 py-3">
+                Güncelle
+            </button>
+
+            <a href="/PropertyType/Index"
+               class="btn btn-outline-dark px-5 py-3">
+                İptal
+            </a>
+
+        </div>
+
+    </form>
+
+</div>

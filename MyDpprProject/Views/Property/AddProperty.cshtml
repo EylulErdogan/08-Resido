@@ -4,93 +4,76 @@
     Layout = "_AdminLayout";
 }
 
-<div class="container-fluid my-4 px-lg-4">
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">New Property</h2>
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item" href="/Property/Index">Property</a>
-            <span class="breadcrumb-item active">New Property</span>
-        </nav>
-    </div>
+<div class="container-fluid">
+    <h2 class="fw-bold mb-4">Yeni İlan Oluştur</h2>
 
     <form method="post">
-        <div class="row mt-4">
-            <div class="col-lg-12">
-                <div class="p-4 bg-white border rounded">
+        <div class="bg-white p-4 rounded-4 shadow-sm">
 
-                    <div class="mb-3">
-                        <label class="form-label">Başlık *</label>
-                        <input type="text" asp-for="Title" class="form-control p-3" placeholder="İlan Başlığı Gİriniz">
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label">Fiyat *</label>
-                            <input type="text" asp-for="Price" class="form-control p-3" placeholder="Fiyat Giriniz">
-                        </div>
-
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label">İlan Türünü Giriniz *</label>
-                            <input type="number" asp-for="PropertyTypeId" class="form-control p-3" placeholder="1 Satılık, 2 Kiralık">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label">Şehir *</label>
-                            <input type="text" asp-for="City" class="form-control p-3" placeholder="Şehir Giriniz">
-                        </div>
-
-                        <div class="col-md-6 mb-3">
-                            <label class="form-label">İlçe *</label>
-                            <input type="text" asp-for="District" class="form-control p-3" placeholder="İlçe Giriniz">
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Adres *</label>
-                        <input type="text" asp-for="Address" class="form-control p-3" placeholder="Adres Giriniz ">
-                    </div>
-
-                    <div class="row">
-                        <div class="col-md-4 mb-3">
-                            <label class="form-label">Yatak Sayısı *</label>
-                            <input type="number" asp-for="BedCount" class="form-control p-3">
-                        </div>
-
-                        <div class="col-md-4 mb-3">
-                            <label class="form-label">Banyo Sayısı *</label>
-                            <input type="number" asp-for="BathCount" class="form-control p-3">
-                        </div>
-
-                        <div class="col-md-4 mb-3">
-                            <label class="form-label">Metrekare *</label>
-                            <input type="number" asp-for="SquareMeter" class="form-control p-3">
-                        </div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label class="form-label">Resim Url *</label>
-                        <input type="text" asp-for="ImageUrl" class="form-control p-3" placeholder="item15.jpg">
-                    </div>
-
-                    <div class="mt-3">
-                        <label class="form-label">Açıklama *</label>
-                        <textarea asp-for="Description" class="form-control p-3" rows="6" placeholder="Açıklama"></textarea>
-                    </div>
-                    <div class="col-lg-3 mt-5 mt-lg-0">
-
-       
-                        <div class="mt-3 d-flex gap-2">
-                            <button type="submit" class="btn btn-dark py-3 w-100">İlan OLuştur</button>
-                            <a href="/Property/Index" class="btn btn-outline-dark py-3 w-100">İptal</a>
-                        </div>
-                    </div>
-                </div>
-              
+            <div class="mb-3">
+                <label class="form-label">Başlık</label>
+                <input asp-for="Title" class="form-control p-3" placeholder="İlan başlığı giriniz">
             </div>
 
-          
+            <div class="mb-3">
+                <label class="form-label">Açıklama</label>
+                <textarea asp-for="Description" class="form-control p-3" rows="5" placeholder="Açıklama giriniz"></textarea>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Fiyat</label>
+                    <input asp-for="Price" class="form-control p-3" placeholder="Fiyat giriniz">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">İlan Türü</label>
+                    <input asp-for="PropertyTypeId" type="number" class="form-control p-3" placeholder="1 Satılık, 2 Kiralık">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">Şehir</label>
+                    <input asp-for="City" class="form-control p-3" placeholder="Şehir giriniz">
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label class="form-label">İlçe</label>
+                    <input asp-for="District" class="form-control p-3" placeholder="İlçe giriniz">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Adres</label>
+                <input asp-for="Address" class="form-control p-3" placeholder="Adres giriniz">
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Yatak Sayısı</label>
+                    <input asp-for="BedCount" type="number" class="form-control p-3">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Banyo Sayısı</label>
+                    <input asp-for="BathCount" type="number" class="form-control p-3">
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <label class="form-label">Metrekare</label>
+                    <input asp-for="SquareMeter" type="number" class="form-control p-3">
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label class="form-label">Resim Url</label>
+                <input asp-for="ImageUrl" class="form-control p-3" placeholder="item15.jpg">
+            </div>
+
+            <button type="submit" class="btn btn-dark px-5 py-3">Kaydet</button>
+            <a href="/Property/Index" class="btn btn-outline-dark px-5 py-3">İptal</a>
+
         </div>
     </form>
 </div>

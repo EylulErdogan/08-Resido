@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\MyDpprProject.csproj": {}
+    "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\MyDpprProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\MyDpprProject.csproj": {
+    "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\MyDpprProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\MyDpprProject.csproj",
+        "projectUniqueName": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\MyDpprProject.csproj",
         "projectName": "MyDpprProject",
-        "projectPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\MyDpprProject.csproj",
+        "projectPath": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\MyDpprProject.csproj",
         "packagesPath": "C:\\Users\\eylul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eylul\\Documents\\GitHub\\AllSoftitoProjects\\8DapperProject\\MyDpprProject\\MyDpprProject\\obj\\",
+        "outputPath": "C:\\Users\\eylul\\Documents\\GitHub\\08-Resido\\MyDpprProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -56,9 +56,17 @@
               "target": "Package",
               "version": "[2.1.79, )"
             },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.6.1, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "QuestPDF": {
+              "target": "Package",
+              "version": "[2026.7.0, )"
             }
           },
           "imports": [

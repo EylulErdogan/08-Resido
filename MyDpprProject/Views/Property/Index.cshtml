@@ -3,79 +3,186 @@
 @{
     Layout = "_AdminLayout";
 }
-<!-- Main Content Area -->
-<div class="container-fluid my-4 px-lg-4">
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">Category List</h2>
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item " href="/Admin">Anasayfa</a>
-            <a class="breadcrumb-item " href="/Property">İlan</a>
-            <span class="breadcrumb-item active " aria-current="page">İlan Listesi</span>
-        </nav>
+
+<div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">İlan Listesi</h2>
+  
+        <a href="/Property/AddProperty" class="btn btn-dark">
+            + Yeni İlan
+        </a>
+
     </div>
-    <div class="bg-white p-4 mt-4">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div>
-                <select class="form-select w-auto d-inline">
-                    <option>10</option>
-                    <option>25</option>
-                    <option>50</option>
-                </select> entries
+
+    <div class="bg-white p-4 rounded-4 shadow-sm">
+
+        <table class="table table-hover align-middle">
+            <div class="row mb-4">
+
+                <div class="col-md-5">
+                    <div class="input-group">
+                        <span class="input-group-text">
+                            🔍
+                        </span>
+                        <input type="text"
+                               id="searchInput"
+                               class="form-control"
+                               placeholder="Başlık, şehir veya ilçe ara...">
+                    </div>
+                </div>
+
             </div>
-            <input type="text" class="form-control w-25" placeholder="Ara...">
-            <a href="/Property/AddProperty" class="btn btn-dark">+ Yeni Ekle</a>
-        </div>
-        <table class="table table-hover align-middle bg-white">
+            <div class="d-flex gap-2">
+                <a href="/Property/ExportToExcel" class="btn btn-success">
+                    Excel
+                </a>
+
+                <a href="/Property/ExportToPdf" class="btn btn-danger">
+                    PDF
+                </a>
+
+                <a href="/Property/AddProperty" class="btn btn-dark">
+                    + Yeni İlan
+                </a>
+            </div>
             <thead class="table-light">
+
                 <tr>
+
+                    <th>Resim</th>
                     <th>Başlık</th>
-                    <th>İlan ID</th>
-                    <th>Açıklama</th>
                     <th>Fiyat</th>
-                    <th>Duzenle</th>
+                    <th>Şehir</th>
+                    <th>Tür</th>
+                    <th>Yatak</th>
+                    <th>Banyo</th>
+                    <th>m²</th>
+                    <th class="text-end">İşlemler</th>
+
                 </tr>
+
             </thead>
+
             <tbody>
+
                 @foreach (var item in Model)
                 {
-                    <tr>
-                        <td class="d-sm-flex align-items-center">
-                            <img src="~/images/@item.ImageUrl"
-                                 alt="@item.Title" class="img-fluid product-img"> <span class="ms-sm-2">@item.Title</span>
-                        </td>
-                        <td>@item.PropertyId</td>
-                        <td>@item.Description</td>
-                        <td>@item.Price</td>
+                    <tr class="property-row"
+                        data-title="@item.Title.ToLower()"
+                        data-city="@item.City.ToLower()"
+                        data-district="@item.District.ToLower()">
+
                         <td>
-                           
-                            <a href="@Url.Action("UpdateProperty", "Property", new { id = item.PropertyId })"
-                               class="text-success me-2">
-                                <i class="bi bi-pencil-square"></i>
+
+                            <img src="~/images/@item.ImageUrl"
+                                 width="90"
+                                 height="70"
+                                 style="object-fit:cover;border-radius:12px;" />
+
+                        </td>
+
+                        <td>
+
+                            <strong>@item.Title</strong>
+
+                            <br />
+
+                            <small class="text-muted">
+                                @item.City / @item.District
+                            </small>
+
+                        </td>
+
+                        <td class="fw-bold text-success">
+
+                            @item.Price.ToString("C", new System.Globalization.CultureInfo("tr-TR"))
+
+                        </td>
+
+                        <td>@item.City</td>
+
+                        <td>
+
+                            @if (item.PropertyTypeId == 1)
+                            {
+                                <span class="badge bg-primary">
+                                    Satılık
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">
+                                    Kiralık
+                                </span>
+                            }
+
+                        </td>
+
+                        <td>@item.BedCount</td>
+
+                        <td>@item.BathCount</td>
+
+                        <td>@item.SquareMeter</td>
+
+                        <td class="text-end">
+
+                            <a href="/Property/PropertyViewById/@item.PropertyId"
+                               class="btn btn-info btn-sm">
+                                Detay
                             </a>
 
-                            <a href="@Url.Action("DeleteProperty", "Property", new { id = item.PropertyId })"
-                               class="text-danger"
-                               onclick="return confirm('Bu ilan silinsin mi?')">
-                                <i class="bi bi-trash-fill"></i>
+                            <a href="/Property/UpdateProperty/@item.PropertyId"
+                               class="btn btn-warning btn-sm">
+                                Güncelle
                             </a>
+
+                            <a href="/Property/DeleteProperty/@item.PropertyId"
+                               class="btn btn-danger btn-sm"
+                               onclick="return confirm('İlan silinsin mi?')">
+                                Sil
+                            </a>
+
                         </td>
+
                     </tr>
                 }
-               
-             
-          
 
-                <!-- Repeat for more rows -->
             </tbody>
+
         </table>
-        <nav>
-            <ul class="pagination justify-content-end">
-                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">»</a></li>
-            </ul>
-        </nav>
+
     </div>
+
 </div>
+<script>
+
+    const searchInput = document.getElementById("searchInput");
+
+    searchInput.addEventListener("keyup", function () {
+
+        let value = this.value.toLowerCase();
+
+        document.querySelectorAll(".property-row").forEach(function (row) {
+
+            let title = row.dataset.title;
+            let city = row.dataset.city;
+            let district = row.dataset.district;
+
+            if (
+                title.includes(value) ||
+                city.includes(value) ||
+                district.includes(value)
+            ) {
+                row.style.display = "";
+            }
+            else {
+                row.style.display = "none";
+            }
+
+        });
+
+    });
+
+</script>

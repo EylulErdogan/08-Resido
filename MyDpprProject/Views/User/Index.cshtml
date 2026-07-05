@@ -4,97 +4,41 @@
     Layout = "_AdminLayout";
 }
 
-<div class="container-fluid my-4 px-lg-4">
-
-    <div class="d-flex justify-content-between align-items-center">
-        <h2 class="fw-bold m-0">User List</h2>
-
-        <nav class="breadcrumb m-0">
-            <a class="breadcrumb-item" href="/Admin">Anasayfa</a>
-            <a class="breadcrumb-item" href="/User">Kullanıcılar</a>
-            <span class="breadcrumb-item active" aria-current="page">Kullanıcı Listesi</span>
-        </nav>
+<div class="container-fluid">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">Müşteri Listesi</h2>
+        <a href="/User/AddUser" class="btn btn-dark">+ Yeni Müşteri</a>
     </div>
 
-    <div class="bg-white p-4 mt-4">
-
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <div>
-                <select class="form-select w-auto d-inline">
-                    <option>10</option>
-                    <option>25</option>
-                    <option>50</option>
-                </select> entries
-            </div>
-
-            <input type="text" class="form-control w-25" placeholder="Ara...">
-
-            <a href="/User/AddUser" class="btn btn-dark">
-                + Yeni Kullanıcı
-            </a>
-        </div>
-
-        <table class="table table-hover align-middle bg-white">
-
+    <div class="bg-white p-4 rounded-4 shadow-sm">
+        <table class="table table-hover align-middle">
             <thead class="table-light">
                 <tr>
-                    <th>Kullanıcı ID</th>
                     <th>Ad Soyad</th>
                     <th>Email</th>
                     <th>Şifre</th>
                     <th>Rol</th>
-                    <th>Düzenle</th>
+                    <th class="text-end">İşlemler</th>
                 </tr>
             </thead>
-
             <tbody>
-
                 @foreach (var item in Model)
                 {
                     <tr>
-
-                        <td>@item.UserId</td>
-
-                        <td>@item.FullName</td>
-
+                        <td class="fw-semibold">@item.FullName</td>
                         <td>@item.Email</td>
-
                         <td>@item.Password</td>
-
-                        <td>@item.RoleName</td>
-
                         <td>
-
-                            <a href="@Url.Action("UpdateUser", "User", new { id = item.UserId })"
-                               class="text-success me-2">
-                                <i class="bi bi-pencil-square"></i>
-                            </a>
-
-                            <a href="@Url.Action("DeleteUser", "User", new { id = item.UserId })"
-                               class="text-danger"
-                               onclick="return confirm('Bu kullanıcı silinsin mi?')">
-                                <i class="bi bi-trash-fill"></i>
-                            </a>
-
+                            <span class="badge bg-secondary">@item.RoleName</span>
                         </td>
-
+                        <td class="text-end">
+                            <a href="/User/UpdateUser/@item.UserId" class="btn btn-success btn-sm">Güncelle</a>
+                            <a href="/User/DeleteUser/@item.UserId" class="btn btn-danger btn-sm"
+                               onclick="return confirm('Bu müşteri silinsin mi?')">Sil</a>
+                        </td>
                     </tr>
                 }
-
             </tbody>
-
         </table>
-
-        <nav>
-            <ul class="pagination justify-content-end">
-                <li class="page-item"><a class="page-link" href="#">«</a></li>
-                <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                <li class="page-item"><a class="page-link" href="#">2</a></li>
-                <li class="page-item"><a class="page-link" href="#">3</a></li>
-                <li class="page-item"><a class="page-link" href="#">»</a></li>
-            </ul>
-        </nav>
-
     </div>
-
 </div>
